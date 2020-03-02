@@ -1,0 +1,104 @@
+
+
+.header{
+  height: 119px;
+  width:1280px;
+  font-family: lato;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: lighter;
+  .topo-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gainsboro;
+    div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:30px;
+    width: 80%;
+      p{
+        font-size: 12px;
+        color: #000000;
+        display: flex;
+        justify-content: center;
+        &:nth-child(1){
+          width: 170px;
+        }
+        &:nth-child(2){
+          width: 310px;
+        }
+        &:nth-child(3){
+          width: 280px;
+          justify-content: initial;
+          
+        }
+      }
+    }
+  }
+  .conteudo-header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    font-size: 12px;
+    .comeco-header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 130px;
+      p{
+        color: #000000;
+        font-size: 12;
+      }
+      .txt-eurico{
+        color: #C00018;
+        font-weight: bold;
+      }
+    }
+    .meio-header{
+      img{
+        width: 150px;
+        height: 53;
+      }
+    }
+    .direita-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width:270px;
+      form{
+        width: 172px;
+        display: flex;
+        justify-content: space-between;
+        input{
+          background-color: transparent;
+          border: none;
+          width: 150px;
+          border-bottom: 2px solid;
+          outline: 0;
+        }
+      }
+      img{
+        width: 21px;
+        height: 21px;
+      }
+    }
+  }
+  .fim-header{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    a{
+    text-decoration: none;
+    color: #000000;
+    }
+  }
+}
+
+

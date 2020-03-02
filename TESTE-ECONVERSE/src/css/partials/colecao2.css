@@ -1,0 +1,43 @@
+.colecaao {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: yellow;
+}
+.colecaao div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 780px;
+  width: 800px;
+}
+.colecaao div .caixa-grande {
+  display: flex;
+  position: relative;
+}
+.colecaao div .caixa-grande a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 185px;
+  height: 45px;
+  border: 1px solid white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  position: absolute;
+  font-family: Lato;
+  color: white;
+  font-weight: bold;
+  left: 87px;
+  top: 334px;
+}
+.colecaao div .caixa-grande a:hover {
+  background-color: white;
+  color: black;
+}
+.colecaao div .caixa-grande .man a {
+  left: 97px;
+  top: 335px;
+}

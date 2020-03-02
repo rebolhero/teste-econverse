@@ -1,0 +1,87 @@
+.colecao{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 780px;
+    width: 800px;
+    .caixa-pequena{
+      position: relative;
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 185px;
+        height: 45px;
+        border: 1px solid white;
+        font-size: 12px;
+        letter-spacing: 2px;
+        position: absolute;
+        font-family: Lato;
+        color: white;
+        font-weight: bold;
+        left:100px;
+        top:186px;
+        p{
+          display: none;
+          color: black;
+        }
+        &:hover{
+          background-color: white;
+          color: black;
+          p{
+            display: block;
+            color: black; 
+          } 
+        }
+      }
+      .esportivo{
+        a{
+          left:98px;
+          top:185px;
+        }
+      }
+    }
+    .caixa-grande{
+      display: flex;
+      position: relative;
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 185px;
+        height: 45px;
+        border: 1px solid white;
+        font-size: 12px;
+        letter-spacing: 2px;
+        position: absolute;
+        font-family: Lato;
+        color: white;
+        font-weight: bold;
+        left:87px;
+        top:334px;
+        p{
+          display: none;
+        }
+        &:hover{
+          background-color: white;
+          color: black;
+          p{
+            display: block;
+          }  
+        }
+      }
+      .man{
+        a{
+          left:97px;
+          top:335px;
+        }
+      }
+    }
+  }
+}

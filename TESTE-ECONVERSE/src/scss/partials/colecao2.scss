@@ -1,0 +1,46 @@
+.colecaao{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 1000px;
+    .caixa-grande{
+      display: flex;
+      position: relative;
+      a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 185px;
+        height: 45px;
+        border: 1px solid white;
+        font-size: 12px;
+        letter-spacing: 2px;
+        position: absolute;
+        font-family: Lato;
+        color: white;
+        left:58px;
+        top:285px;
+        p{
+         display: none;
+        }
+        &:hover{
+          background-color: white; 
+          p{
+            color: black;
+            font-weight: bold;
+            display: block;
+          } 
+        }
+      }
+      .ofertas{
+          left:58px;
+          top:260px;
+      }
+    }
+  }
+}

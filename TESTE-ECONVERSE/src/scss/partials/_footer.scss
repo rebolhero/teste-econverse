@@ -1,0 +1,113 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  .topo-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    font-family: lato;
+    font-size: 12px;
+    .institucional{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 140px;
+      div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100px;
+        a{
+          color: #000000;
+        }
+      }
+    }
+    .suporte{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 130px;
+      div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100px;
+        a{
+          color: #000000;
+        }
+      }
+    }
+    .atendimento{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 130px;
+      div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 88px;
+      }
+      a{
+        color: #000000;
+      }
+    }
+    .formas-pagamento{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 130px;
+      div{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        height: 100px;
+        width: 150px;
+        flex-wrap: wrap;
+      }
+    }
+    .seguranca{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 100px;
+    }
+  }
+  .fim-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    .redes-sociais{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 120px;
+    }
+    .txt-footer{
+      font-weight: lighter;
+      width: 600px;
+      font-family: lato;
+      font-size: 10px;
+    }
+    .direita-footer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 200px;
+      img{
+        &:nth-child(1){
+          width: 88px;
+          height: 40px;
+        }
+        &:nth-child(2){
+          width: 84px;
+          height: 30px;
+        }
+      }
+    }
+  }  
+}
