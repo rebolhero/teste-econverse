@@ -11,6 +11,8 @@
       font-size: 12px;
       color: #000000;
       font-weight: lighter;
+      transition: .5s;
+      margin: 10px 0;
       p{
         width: 200px;
         text-align: center;
@@ -38,7 +40,11 @@
           background-color:black;
           color: white;  
         }
-      }  
+      } 
+      &:hover{
+        transform: scale(1.01);
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+      } 
     }
   }
 }
